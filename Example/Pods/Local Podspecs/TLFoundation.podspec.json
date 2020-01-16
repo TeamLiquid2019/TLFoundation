@@ -1,6 +1,6 @@
 {
   "name": "TLFoundation",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "TL基础组件库 \\\n    -网络\\\n    -数据库\\\n    -中间件\\\n    -日志系统\\\n    -分类\\\n    -工具\\\n        -日期处理\\\n        -文件处理\\\n        -设备信息\\",
   "description": "iOS项目基础组件库（网络，数据库等）业务无关的基础组件",
   "homepage": "https://github.com/TeamLiquid2019/TLFoundation",
@@ -13,12 +13,13 @@
   },
   "source": {
     "git": "https://github.com/TeamLiquid2019/TLFoundation.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"
   },
   "source_files": "TLFoundation/Classes/*",
+  "public_header_files": "TLFoundation/Classes/TLHeader.h",
   "dependencies": {
     "YTKNetwork": [
 

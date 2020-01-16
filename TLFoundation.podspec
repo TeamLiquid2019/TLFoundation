@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TLFoundation'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'TL基础组件库 \
     -网络\
     -数据库\
@@ -42,6 +42,8 @@ iOS项目基础组件库（网络，数据库等）业务无关的基础组件
 
 #  s.source_files = 'TLFoundation/Classes/**/*'
   s.source_files = 'TLFoundation/Classes/*'
+  
+  s.public_header_files = 'TLFoundation/Classes/TLHeader.h'
   
   #-----------------文件分级-------------------#
   

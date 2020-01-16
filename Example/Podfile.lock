@@ -15,32 +15,32 @@ PODS:
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
-  - TLFoundation (0.1.0):
+  - TLFoundation (0.1.1):
     - CTMediator
     - FMDB
-    - TLFoundation/Category (= 0.1.0)
-    - TLFoundation/DB (= 0.1.0)
-    - TLFoundation/Mediator (= 0.1.0)
-    - TLFoundation/Networking (= 0.1.0)
-    - TLFoundation/Tools (= 0.1.0)
+    - TLFoundation/Category (= 0.1.1)
+    - TLFoundation/DB (= 0.1.1)
+    - TLFoundation/Mediator (= 0.1.1)
+    - TLFoundation/Networking (= 0.1.1)
+    - TLFoundation/Tools (= 0.1.1)
     - YTKNetwork
-  - TLFoundation/Category (0.1.0):
-    - CTMediator
-    - FMDB
-    - YTKNetwork
-  - TLFoundation/DB (0.1.0):
+  - TLFoundation/Category (0.1.1):
     - CTMediator
     - FMDB
     - YTKNetwork
-  - TLFoundation/Mediator (0.1.0):
+  - TLFoundation/DB (0.1.1):
     - CTMediator
     - FMDB
     - YTKNetwork
-  - TLFoundation/Networking (0.1.0):
+  - TLFoundation/Mediator (0.1.1):
     - CTMediator
     - FMDB
     - YTKNetwork
-  - TLFoundation/Tools (0.1.0):
+  - TLFoundation/Networking (0.1.1):
+    - CTMediator
+    - FMDB
+    - YTKNetwork
+  - TLFoundation/Tools (0.1.1):
     - CTMediator
     - FMDB
     - YTKNetwork
@@ -68,7 +68,7 @@ SPEC CHECKSUMS:
   CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
-  TLFoundation: 3058b84e4c8bc502216ec5df620931bae9b71b8f
+  TLFoundation: a0c4843ccf3cf7d332bb36d664438a092ea15fc6
   YTKNetwork: 19be749c30f0512ada07180f4637b4b67bc8ddc2
 
 PODFILE CHECKSUM: 1a34a52c9237c8ae9732ff4df0db8b06551b697d
