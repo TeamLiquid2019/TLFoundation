@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TLFoundation_Example' do
+  pod 'TLFoundation', :path => '../'
+
+  target 'TLFoundation_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
