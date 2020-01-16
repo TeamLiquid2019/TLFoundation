@@ -1,0 +1,6 @@
+framework module TLFoundation {
+  umbrella header "TLFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}

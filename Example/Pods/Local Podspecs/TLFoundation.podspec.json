@@ -1,0 +1,55 @@
+{
+  "name": "TLFoundation",
+  "version": "0.1.0",
+  "summary": "TL基础组件库 \\\n    -网络\\\n    -数据库\\\n    -中间件\\\n    -日志系统\\\n    -分类\\\n    -工具\\\n        -日期处理\\\n        -文件处理\\\n        -设备信息\\",
+  "description": "iOS项目基础组件库（网络，数据库等）业务无关的基础组件",
+  "homepage": "https://github.com/TeamLiquid2019/TLFoundation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "TeamLiquid2019": "liquid@teamliquid.com"
+  },
+  "source": {
+    "git": "https://github.com/TeamLiquid2019/TLFoundation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TLFoundation/Classes/*",
+  "dependencies": {
+    "YTKNetwork": [
+
+    ],
+    "CTMediator": [
+
+    ],
+    "FMDB": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Category",
+      "source_files": "TLFoundation/Classes/Category/*.{h,m}"
+    },
+    {
+      "name": "DB",
+      "source_files": "TLFoundation/Classes/DB/*.{h,m}"
+    },
+    {
+      "name": "Mediator",
+      "source_files": "TLFoundation/Classes/Mediator/*.{h,m}"
+    },
+    {
+      "name": "Networking",
+      "source_files": "TLFoundation/Classes/Networking/*.{h,m}"
+    },
+    {
+      "name": "Tools",
+      "source_files": "TLFoundation/Classes/Tools/*.{h,m}"
+    }
+  ]
+}
