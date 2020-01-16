@@ -22,7 +22,7 @@ pod 'TLFoundation'
 
 ## Author
 
-daxiangwork, 1295434840@qq.com
+TeamLiquid2019, liquid@teamliquid.coom
 
 ## License
 
