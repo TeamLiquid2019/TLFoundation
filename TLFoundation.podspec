@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TLFoundation'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'TL基础组件库 \
     -网络\
     -数据库\
